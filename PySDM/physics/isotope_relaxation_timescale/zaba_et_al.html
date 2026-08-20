@@ -103,7 +103,7 @@
 
                         <label class="view-source-button" for="mod-zaba_et_al-view-source"><span>View Source</span></label>
 
-                        <div class="pdoc-code codehilite"><pre><span></span><span id="L-1"><a href="#L-1"><span class="linenos"> 1</span></a><span class="sd">&quot;&quot;&quot;isotope e-folding timescale based on Fick&#39;s first law and Fourier&#39;s law&quot;&quot;&quot;</span>
+                        <div class="pdoc-code codehilite"><pre><span></span><span id="L-1"><a href="#L-1"><span class="linenos"> 1</span></a><span class="sd">"""isotope e-folding timescale based on Fick's first law and Fourier's law"""</span>
 </span><span id="L-2"><a href="#L-2"><span class="linenos"> 2</span></a>
 </span><span id="L-3"><a href="#L-3"><span class="linenos"> 3</span></a>
 </span><span id="L-4"><a href="#L-4"><span class="linenos"> 4</span></a><span class="k">class</span><span class="w"> </span><span class="nc">ZabaEtAl</span><span class="p">:</span>  <span class="c1"># pylint: disable=too-few-public-methods</span>
@@ -114,7 +114,7 @@
 </span><span id="L-9"><a href="#L-9"><span class="linenos"> 9</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">tau</span><span class="p">(</span>
 </span><span id="L-10"><a href="#L-10"><span class="linenos">10</span></a>        <span class="n">const</span><span class="p">,</span> <span class="n">rho_s</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">D_iso</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="n">S</span><span class="p">,</span> <span class="n">R_liq</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">R_vap</span><span class="p">,</span> <span class="n">Fk</span>
 </span><span id="L-11"><a href="#L-11"><span class="linenos">11</span></a>    <span class="p">):</span>  <span class="c1"># pylint: disable=too-many-arguments, unused-argument</span>
-</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;relative growth of heavy isotope as a function of mass&quot;&quot;&quot;</span>
+</span><span id="L-12"><a href="#L-12"><span class="linenos">12</span></a><span class="w">        </span><span class="sd">"""relative growth of heavy isotope as a function of mass"""</span>
 </span><span id="L-13"><a href="#L-13"><span class="linenos">13</span></a>        <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span>
 </span><span id="L-14"><a href="#L-14"><span class="linenos">14</span></a>            <span class="mi">3</span>
 </span><span id="L-15"><a href="#L-15"><span class="linenos">15</span></a>            <span class="o">*</span> <span class="n">rho_s</span>
@@ -147,7 +147,7 @@
 </span><span id="ZabaEtAl-10"><a href="#ZabaEtAl-10"><span class="linenos">10</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">tau</span><span class="p">(</span>
 </span><span id="ZabaEtAl-11"><a href="#ZabaEtAl-11"><span class="linenos">11</span></a>        <span class="n">const</span><span class="p">,</span> <span class="n">rho_s</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">D_iso</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="n">S</span><span class="p">,</span> <span class="n">R_liq</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">R_vap</span><span class="p">,</span> <span class="n">Fk</span>
 </span><span id="ZabaEtAl-12"><a href="#ZabaEtAl-12"><span class="linenos">12</span></a>    <span class="p">):</span>  <span class="c1"># pylint: disable=too-many-arguments, unused-argument</span>
-</span><span id="ZabaEtAl-13"><a href="#ZabaEtAl-13"><span class="linenos">13</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;relative growth of heavy isotope as a function of mass&quot;&quot;&quot;</span>
+</span><span id="ZabaEtAl-13"><a href="#ZabaEtAl-13"><span class="linenos">13</span></a><span class="w">        </span><span class="sd">"""relative growth of heavy isotope as a function of mass"""</span>
 </span><span id="ZabaEtAl-14"><a href="#ZabaEtAl-14"><span class="linenos">14</span></a>        <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span>
 </span><span id="ZabaEtAl-15"><a href="#ZabaEtAl-15"><span class="linenos">15</span></a>            <span class="mi">3</span>
 </span><span id="ZabaEtAl-16"><a href="#ZabaEtAl-16"><span class="linenos">16</span></a>            <span class="o">*</span> <span class="n">rho_s</span>
@@ -196,7 +196,7 @@
 </span><span id="ZabaEtAl.tau-10"><a href="#ZabaEtAl.tau-10"><span class="linenos">10</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">tau</span><span class="p">(</span>
 </span><span id="ZabaEtAl.tau-11"><a href="#ZabaEtAl.tau-11"><span class="linenos">11</span></a>        <span class="n">const</span><span class="p">,</span> <span class="n">rho_s</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">D_iso</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="n">S</span><span class="p">,</span> <span class="n">R_liq</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">R_vap</span><span class="p">,</span> <span class="n">Fk</span>
 </span><span id="ZabaEtAl.tau-12"><a href="#ZabaEtAl.tau-12"><span class="linenos">12</span></a>    <span class="p">):</span>  <span class="c1"># pylint: disable=too-many-arguments, unused-argument</span>
-</span><span id="ZabaEtAl.tau-13"><a href="#ZabaEtAl.tau-13"><span class="linenos">13</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;relative growth of heavy isotope as a function of mass&quot;&quot;&quot;</span>
+</span><span id="ZabaEtAl.tau-13"><a href="#ZabaEtAl.tau-13"><span class="linenos">13</span></a><span class="w">        </span><span class="sd">"""relative growth of heavy isotope as a function of mass"""</span>
 </span><span id="ZabaEtAl.tau-14"><a href="#ZabaEtAl.tau-14"><span class="linenos">14</span></a>        <span class="k">return</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span>
 </span><span id="ZabaEtAl.tau-15"><a href="#ZabaEtAl.tau-15"><span class="linenos">15</span></a>            <span class="mi">3</span>
 </span><span id="ZabaEtAl.tau-16"><a href="#ZabaEtAl.tau-16"><span class="linenos">16</span></a>            <span class="o">*</span> <span class="n">rho_s</span>
